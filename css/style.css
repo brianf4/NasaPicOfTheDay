@@ -26,16 +26,23 @@ html {
 }
 
 body {
-    background-color: black;
+     background: no-repeat center/100%  url(/images/animatedspace.gif);
+     padding: 1.5rem;
 }
 
-h1, p {
+h1{
   color: white;   
 }
 
 h1 {
      text-align: center;
      font-size: 4rem;
+}
+
+h2 {
+     text-align: center;
+     color: white;
+     font-size: 3rem;
 }
 
 input {
@@ -64,20 +71,27 @@ footer {
 }
 
 figure {
-
+     
+     border: 2px solid white;
 }
 
 img {
-     width: 50%;
+     width: 30%;
      display: block;
      margin: auto;
+     
 }
 
 p {
-     font-size: 1.8rem;
+     font-family: 'Nunito', sans-serif;
+     font-size: 2rem;
+     font-weight: 600;
      width: 70%;
      margin: auto;
      text-align: center;
+     color: #FFF5AB;
+     line-height: 3.5rem;
+     /* background: #10143A; */
 }
 
 div {
