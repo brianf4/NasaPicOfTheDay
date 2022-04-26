@@ -35,17 +35,22 @@ h1, p {
 
 h1 {
      text-align: center;
-     
+     font-size: 4rem;
 }
 
 input {
      padding: .5rem 1rem;
+     font-size: 1.5rem;
 }
 
 button {
      padding: 1rem 3rem;
-     font-size: 1.5rem;
+     font-size: 2rem;
+     border-radius: 8px;
+     border: none;
 }
+
+
 
 /******************************************
 /* LAYOUT
@@ -76,8 +81,11 @@ p {
 }
 
 div {
-     width: max-content;
+     border: 2px solid white;
+     width: 40%;
      margin: auto;
+     display: flex;
+     justify-content: space-around;
 }
 
 /******************************************
