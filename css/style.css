@@ -62,21 +62,9 @@ button {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
-
-footer {
-
-}
-
-figure {
-     
-     border: 2px solid white;
-}
 
 img {
-     width: 30%;
+     width: 35%;
      display: block;
      margin: auto;
      
@@ -84,18 +72,17 @@ img {
 
 p {
      font-family: 'Nunito', sans-serif;
-     font-size: 2rem;
+     font-size: 2.5rem;
      font-weight: 600;
      width: 70%;
      margin: auto;
      text-align: center;
      color: #FFF5AB;
      line-height: 3.5rem;
-     /* background: #10143A; */
+     
 }
 
 div {
-     border: 2px solid white;
      width: 40%;
      margin: auto;
      display: flex;
