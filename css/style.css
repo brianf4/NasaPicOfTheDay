@@ -35,6 +35,16 @@ h1, p {
 
 h1 {
      text-align: center;
+     
+}
+
+input {
+     padding: .5rem 1rem;
+}
+
+button {
+     padding: 1rem 3rem;
+     font-size: 1.5rem;
 }
 
 /******************************************
@@ -65,7 +75,10 @@ p {
      text-align: center;
 }
 
-
+div {
+     width: max-content;
+     margin: auto;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
